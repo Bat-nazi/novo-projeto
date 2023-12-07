@@ -9,7 +9,7 @@ body{
     /*Cor de fundo */
     color: rgb(7, 6, 6);
     /*Cor da letra */
-    font-size: 19px;
+    font-size: 24px;
     font-weight: 400px;
 }
 
@@ -20,11 +20,12 @@ body{
 }
 .container_botao{
     background-color: rgb(1, 69, 129);
-    border-radius: 1em;
-    padding:1em;
+    border-radius: 2em;
+    padding: 1em;
     color:black;
-    display: block;
-    text-decoration: 10px;
+    display:inline-block;
+    text-decoration: 3em;
+    margin-top: 25px;
 }
 .botao_secundario{
   background-color:transparent ;
@@ -51,12 +52,22 @@ body{
 
 .secundario{
     align-items: center;
-    margin:0 1em;
+    margin:0 0%;
 }
  
 .secundario{
-    background-color: rgb(243, 239, 233);
+    background-color: rgb(139, 144, 223);
     color: rgb(20, 20, 20);
     font-size: 24px;
     font-weight: 400px;
+}
+.container_descricao{
+    padding: 1em;
+    font-size: 24px;
+}
+.secundario_botao{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 1em;
+
 }
